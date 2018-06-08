@@ -1,0 +1,22 @@
+{
+  "name": "cxp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "i": "find * -mtime +10950 -exec touch {} \\;"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.169.0",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4"
+  }
+}
